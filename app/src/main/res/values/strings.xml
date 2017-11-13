@@ -1,3 +1,42 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Just Java</string>
+    <string name="name"> Name </string>
+
+    <!-- Header text for the list of toppings [CHAR_LIMIT=20] -->
+    <string name="toppings"> Toppings </string>
+    <string name="whipped_cream"> Whipped Cream </string>
+    <string name="chocolate"> Chocolate </string>
+    <string name="quantity"> Quantity </string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=5] -->
+    <string name="initial_quantity_value">2</string>
+    <string name="order_summary"> Order Summary </string>
+    <string name="order"> Order </string>
+
+    <!-- Name for the order summary, it will be shown in the format of "Name: Amy" where Amy is the
+    user's name. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_name"> Name: <xliff:g example="Amy" id="addName"> %s </xliff:g> </string>
+
+    <!-- Adding whipped cream to the order summary, it will either be shown in the format of
+    " add Whipped cream? true" or " add Whipped cream? false" -->
+    <string name="order_summary_whipped_cream"> Add whipped cream? <xliff:g example="true" id="addWhippedCream"> %b </xliff:g> </string>
+
+    <!-- Adding chocolate topping to the order summary, it will either be shown in the format of
+ " add Chocolate? true" or " add Chocolate? false" -->
+    <string name="order_summary_chocolate"> Add chocolate? <xliff:g example="true" id="addChocolate"> %b </xliff:g> </string>
+
+    <!--
+     Quantity of coffee cups for the order summary. It will be shown in the format of
+     "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]
+   -->
+    <string name="order_summary_quantity"> Quantity: <xliff:g example="2" id="quantity"> %d </xliff:g> </string>
+
+    <!--
+  Total price for the order summary. It will be shown in the format of
+  "Total: $10" where $10 is the price. [CHAR LIMIT=NONE]
+-->
+    <string name="order_summary_price"> Total: <xliff:g example="£10" id="price"> %s </xliff:g> </string>
+
+    <!-- Thank you message for the order summary [CHAR LIMIT=NONE] -->
+    <string name="thank_you"> Thank you! </string>
+
 </resources>

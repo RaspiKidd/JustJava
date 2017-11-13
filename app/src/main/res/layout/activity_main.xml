@@ -15,7 +15,7 @@
             android:id="@+id/name_edit_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="name"
+            android:hint="@string/name"
             android:inputType="textCapWords"
             android:layout_marginBottom="16dp"/>
 
@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="Toppings"
+            android:text="@string/toppings"
             android:textAllCaps="true" />
 
         <CheckBox
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:paddingLeft="24dp"
-            android:text="Whipped Cream"
+            android:text="@string/whipped_cream"
             android:textSize="16sp" />
 
         <CheckBox
@@ -41,13 +41,13 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:paddingLeft="24dp"
-            android:text="Chocolate"
+            android:text="@string/chocolate"
             android:textSize="16sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Quantity"
+            android:text="@string/quantity"
             android:textAllCaps="true" />
 
         <android.support.v7.widget.LinearLayoutCompat
@@ -69,7 +69,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginTop="16dp"
-                android:text="2"
+                android:text="@string/initial_quantity_value"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
@@ -85,7 +85,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Order Summary"
+            android:text="@string/order_summary"
             android:textAllCaps="true" />
 
         <TextView
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:onClick="submitOrder"
-            android:text="Order" />
+            android:text="@string/order" />
 
     </LinearLayout>
 </ScrollView>
