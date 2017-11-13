@@ -20,11 +20,8 @@
             android:layout_marginBottom="16dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="@string/toppings"
-            android:textAllCaps="true" />
+            style="@style/HeaderTextStyle"
+            android:text="@string/toppings" />
 
         <CheckBox
             android:id="@+id/whipped_cream_checkbox"
@@ -45,10 +42,8 @@
             android:textSize="16sp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/quantity"
-            android:textAllCaps="true" />
+            style="@style/HeaderTextStyle"
+            android:text="@string/quantity" />
 
         <android.support.v7.widget.LinearLayoutCompat
             android:layout_width="match_parent"
@@ -82,11 +77,8 @@
         </android.support.v7.widget.LinearLayoutCompat>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/order_summary"
-            android:textAllCaps="true" />
+            style="@style/HeaderTextStyle"
+            android:text="@string/order_summary" />
 
         <TextView
             android:id="@+id/order_summary_text_view"
